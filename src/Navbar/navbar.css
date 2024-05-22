@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #fd76e6; /* Color de fondo del Navbar */
+  padding: 3px 20px; /* Espaciado interno */
+  box-shadow: #ffafcc; /* Sombra para profundidad */
+}
+
+.navbar-logo {
+  height: 70px; /* Ajusta el tamaño según sea necesario */
+  margin-right:10px; /* Espaciado entre el logo y el texto */
+}
+
+.navbar-brand {
+  font-size: 30px; /* Tamaño de fuente del logotipo */
+  font-weight: bold; /* Grosor de fuente */
+  color: rgb(146, 2, 151); /* Color del logotipo */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+.navbar-toggler {
+  border: none; /* Sin borde */
+}
+
+.navbar-toggler-icon {
+  background-color:#891cf6; /* Color del icono de hamburguesa */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Mover enlaces a la derecha */
+}
+
+.nav-item {
+  margin-right: 50px; /* Espaciado entre elementos del Navbar */
+}
+
+.nav-link {
+  color: #891cf6; /* Color de enlaces */
+  font-size: 18px; /* Tamaño de fuente */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold;
+  transition: color 0.3s; /* Transición suave para el hover */
+}
+
+.nav-link:hover {
+  color: rgb(146, 2, 151); /* Color del enlace al pasar el ratón por encima */
+}
+
+.navbar-brand:hover {
+  color: #e0a4f6; /* Color del logotipo al pasar el ratón por encima */
+}
